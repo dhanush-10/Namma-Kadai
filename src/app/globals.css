@@ -1,0 +1,28 @@
+@import '@fontsource-variable/inter';
+@import '@fontsource-variable/noto-sans-tamil';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  @apply bg-paper text-ink antialiased font-sans;
+  background-image: radial-gradient(1200px 500px at 90% -10%, rgba(125, 211, 176, .25), transparent 60%);
+  background-attachment: fixed;
+  overflow-x: hidden;
+}
+html[lang='ta'] body { @apply font-tamil; line-height: 1.55; }
+:focus-visible { outline: 4px solid #46b98c; outline-offset: 2px; }
+input, textarea, select, button { font-family: inherit; }
+.tabular-nums { font-variant-numeric: tabular-nums; }
+.safe-bottom { padding-bottom: env(safe-area-inset-bottom); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .001ms !important; animation-iteration-count: 1 !important; transition-duration: .001ms !important; scroll-behavior: auto !important; }
+  .nk-motion { animation: none !important; transform: none !important; }
+}
+@media print {
+  .no-print { display: none !important; }
+  body { background: #fff !important; }
+}

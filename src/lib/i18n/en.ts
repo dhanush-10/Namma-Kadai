@@ -1,0 +1,92 @@
+export const en = {
+  appName: 'NAMMA KADAI',
+  tagline: 'Smart Shop. Simple Accounts.',
+  welcomeTitle: 'Your shop notebook, on your phone',
+  welcomeSub: 'Record credit, collect payments and see who owes what in seconds.',
+  // nav
+  navHome: 'Home', navCustomers: 'Customers', navPurchase: 'Purchase', navPayment: 'Payment', navMore: 'More',
+  navCalculator: 'Calculator', navReports: 'Reports', navSettings: 'Settings', navProducts: 'Products', navCashSale: 'Cash sale',
+  // common
+  save: 'Save', cancel: 'Cancel', search: 'Search', edit: 'Edit', back: 'Back', close: 'Close', retry: 'Try again',
+  loading: 'Loading…', confirm: 'Confirm', done: 'Done', yes: 'Yes', no: 'No', optional: 'optional', all: 'All', from: 'From', to: 'To',
+  name: 'Name', phone: 'Phone number', address: 'Address', notes: 'Notes', amount: 'Amount', description: 'Description', date: 'Date',
+  total: 'Total', quantity: 'Quantity', price: 'Price', item: 'Item', unit: 'Unit', add: 'Add', remove: 'Remove', clear: 'Clear', copy: 'Copy',
+  today: 'Today', thisWeek: 'This week', thisMonth: 'This month', custom: 'Custom',
+  // auth
+  login: 'Log in', logout: 'Log out', email: 'Email', password: 'Password', newPassword: 'New password',
+  forgotPassword: 'Forgot password?', sendResetLink: 'Send reset link', resetLinkSent: 'Check your email for the reset link.',
+  setNewPassword: 'Set new password', passwordUpdated: 'Password updated.', backToLogin: 'Back to log in',
+  invalidLogin: 'Email or password is wrong.', passwordMin: 'Password must be at least 8 characters.',
+  setupTitle: 'Set up your shop', shopName: 'Shop name', createShop: 'Create shop',
+  setupClosed: 'A shop already exists for this installation. Ask the owner to add you.',
+  // dashboard
+  greeting: 'Welcome back', todaysSales: "Today's sales", creditGiven: 'Credit given', paymentsReceived: 'Payments received',
+  totalOutstanding: 'Total outstanding', customerCount: 'Customers',
+  addPurchase: 'Add purchase', receivePayment: 'Receive payment', customers: 'Customers', calculator: 'Calculator',
+  recentTransactions: 'Recent transactions', pendingBalances: 'Customers who owe', todaysActivity: "Today's activity",
+  weeklyCollection: 'Collected this week', entriesToday: 'entries today', salesNote: 'Cash sales + credit given',
+  noTransactionsYet: 'No entries yet', noTransactionsHint: 'Add the first purchase to start your digital notebook.',
+  noPending: 'Nobody owes anything', noPendingHint: 'All accounts are clear.', viewAll: 'View all',
+  // customers
+  addCustomer: 'Add customer', editCustomer: 'Edit customer', searchCustomers: 'Search name or phone',
+  noCustomers: 'No customers yet', noCustomersHint: 'Add your first regular customer.', noMatch: 'No one found',
+  noMatchHint: 'Check the spelling, or add this person as a new customer.', customerNo: 'No.',
+  openingBalance: 'Old balance (from notebook)', openingBalanceHint: 'Amount already owed before using this app. It cannot be changed later.',
+  outstanding: 'Outstanding', lastTransaction: 'Last entry', cleared: 'Cleared', owes: 'Owes', advance: 'Advance',
+  customerSaved: 'Customer saved', showInactive: 'Show hidden', hideCustomer: 'Hide customer', unhideCustomer: 'Show customer',
+  hideConfirm: 'Hide this customer from lists? Their records are kept.',
+  // purchase
+  quickEntry: 'Quick', itemWise: 'Item-wise', chooseCustomer: 'Choose customer', changeCustomer: 'Change',
+  purchaseAmount: 'Purchase amount', whatBought: 'What was bought (optional)', savePurchase: 'Save purchase',
+  addItem: 'Add item', itemName: 'Item name', qty: 'Qty', rate: 'Rate', grandTotal: 'Total', addAnother: 'Add another',
+  purchaseSaved: 'Purchase saved', newOutstanding: 'New outstanding', addMore: 'Add another entry', goToCustomer: 'View account',
+  // payment
+  previousOutstanding: 'Outstanding now', paymentAmount: 'Payment received', paymentMethod: 'Paid by', savePayment: 'Save payment',
+  remaining: 'Remaining', cash: 'Cash', upi: 'UPI', other: 'Other', paymentSaved: 'Payment saved', fullAmount: 'Full amount',
+  nothingOwed: 'This customer owes nothing.', note: 'Note',
+  // cash sale
+  cashSaleTitle: 'Cash sale', cashSaleHint: 'For walk-in customers who pay immediately.', saveCashSale: 'Save cash sale', cashSaleSaved: 'Cash sale saved',
+  // account
+  account: 'Account', totalPurchases: 'Total purchases', totalPayments: 'Total payments', adjustments: 'Adjustments',
+  lastPurchase: 'Last purchase', lastPayment: 'Last payment', history: 'History', purchase: 'Purchase', payment: 'Payment',
+  adjustment: 'Adjustment', reversal: 'Reversal', reversed: 'Reversed', noHistory: 'No entries in this period', statement: 'Statement',
+  printStatement: 'Print / save as PDF', openingLine: 'Opening balance', balance: 'Balance', cancelEntry: 'Cancel entry',
+  cancelEntryHint: 'The entry stays in the record. A matching opposite entry is added.', reasonLabel: 'Reason', reasonPlaceholder: 'Why is this being cancelled?',
+  addAdjustment: 'Correct balance', adjustmentHint: 'Use + to add to what they owe, − to reduce it.', increase: 'Increase', decrease: 'Decrease',
+  items: 'Items', loadMore: 'Show more',
+  // calculator
+  quickCalc: 'Calculator', shoppingCalc: 'Bill', useInPurchase: 'Use in purchase', billTotal: 'Bill total', emptyBill: 'No items yet', addToBill: 'Add to bill',
+  // reports
+  reports: 'Reports', daily: 'Daily', weekly: 'Weekly', monthly: 'Monthly', totalSales: 'Total sales', creditPurchases: 'Credit purchases',
+  cashSales: 'Cash sales', paymentsCollected: 'Payments collected', pendingCredit: 'Pending credit', exportCsv: 'Download CSV',
+  collectionsNote: 'Collections are payments on old credit. They are not counted as sales.', customersPending: 'Customers with balance',
+  // settings
+  settings: 'Settings', language: 'Language', tamil: 'தமிழ்', english: 'English', allowAdvance: 'Allow advance payments',
+  allowAdvanceHint: 'Lets a customer pay more than they owe (kept as advance).', shop: 'Shop', account_: 'Account', signedInAs: 'Signed in as',
+  install: 'Install on phone', installHint: 'Add NAMMA KADAI to your home screen so it opens like an app.', installNow: 'Install',
+  installIos: 'On iPhone: tap Share, then “Add to Home Screen”.', installed: 'Already installed',
+  backup: 'Backup & export', backupHint: 'Download your records regularly and keep a copy on another device.',
+  exportCustomers: 'Customers (CSV)', exportTransactions: 'All transactions (CSV)', exportEverything: 'Everything (JSON backup)',
+  lastBackup: 'Last backup', never: 'Never', backupReminder: 'It has been a while since your last backup.', exporting: 'Preparing…',
+  auditLog: 'Activity log', products: 'Products', productsHint: 'Saved items appear as suggestions in item-wise entry.', addProduct: 'Add product',
+  defaultPrice: 'Usual price', hide: 'Hide', show: 'Show', noProducts: 'No products yet',
+  // sync / offline
+  online: 'Online', offline: 'Offline', pendingSync: 'Not saved yet', syncNow: 'Send now', syncing: 'Sending…',
+  pendingCount: '{n} entries waiting to be sent', syncedOk: 'All entries sent', syncStatus: 'Pending entries', nothingPending: 'Nothing waiting. Everything is saved.',
+  failedEntry: 'Rejected by server', discard: 'Discard', discardConfirm: 'Discard this entry permanently? It was never saved to your records.',
+  savedOffline: 'NOT SAVED YET', savedOfflineBody: 'No internet. This entry is stored on this phone and will be sent automatically. It is not in your records until then.',
+  offlinePageTitle: 'You are offline', offlinePageBody: 'Open a page you visited before, or add entries. They will be sent when internet returns.',
+  customerListOld: 'Showing the list saved on this phone (may be out of date).',
+  // errors
+  errGeneric: 'Something went wrong. Please try again.', errNetwork: 'Cannot reach the server. Check internet.',
+  NOT_AUTHORIZED: 'Please log in again.', INVALID_AMOUNT: 'Enter a valid amount (up to 2 decimals, more than zero).',
+  AMOUNT_TOO_LARGE: 'That amount is too large.', INVALID_DATE: 'That date is not valid.', INVALID_REQUEST: 'Something is missing. Check and try again.',
+  CUSTOMER_NOT_FOUND: 'Customer not found.', TRANSACTION_NOT_FOUND: 'Entry not found.',
+  PAYMENT_EXCEEDS_OUTSTANDING: 'Payment is more than what the customer owes.', ITEMS_TOTAL_MISMATCH: 'Item total does not match the amount.',
+  REASON_REQUIRED: 'Please write a reason (at least 3 letters).', ALREADY_REVERSED: 'This entry was already cancelled.',
+  CANNOT_REVERSE_REVERSAL: 'A cancellation cannot be cancelled.', SETUP_CLOSED: 'Shop setup is closed.', IMMUTABLE_RECORD: 'This record cannot be changed.',
+  NETWORK: 'No internet connection.', AUTH_EXPIRED: 'Session expired. Log in again.', UNKNOWN: 'Unexpected error.',
+  required: 'Required', invalidPhone: 'Enter a valid phone number', nameRequired: 'Please enter a name', chooseCustomerFirst: 'Choose a customer first',
+  enterAmount: 'Enter an amount',
+} as const;
+export type DictKey = keyof typeof en;
